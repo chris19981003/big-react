@@ -48,6 +48,7 @@ export default [
 			...basePlugins,
 			alias({
 				entries: {
+					// ??????????????
 					hostConfig: `${pkgPath}/src/hostConfig.ts`
 				}
 			}),
